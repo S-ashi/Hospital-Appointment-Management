@@ -1,0 +1,29 @@
+# Java / Maven
+backend/target/
+*.class
+
+# Node
+frontend/node_modules/
+frontend/dist/
+
+# IDE
+.idea/
+.project
+.classpath
+.settings/
+.vscode/
+
+# Local credentials
+.env
+
+# Environment and secrets
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+
+# Logs and temporary files
+*.log
+.DS_Store
+Thumbs.db
